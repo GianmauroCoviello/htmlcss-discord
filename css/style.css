@@ -103,15 +103,14 @@ footer{
 /* END UTILITIES */
 #login{
     border-radius: 20px;
-    padding: 8px;
+    padding: 10px;
     background-color: white;
-    font-size: 10px;
+    font-size: 8px;
     border: none;
     
 }
 .col-logo{
     width: 20%;
-    padding: 3px;
     text-align: initial;
 
 }
@@ -121,7 +120,6 @@ footer{
 }
 .col-button{
     width: 20%;
-    padding: 10px 10px;
     text-align: end;
     
     
@@ -241,7 +239,7 @@ li{
     padding-bottom: 10px;
 }
 .button-footer{
-    padding: 10px 10px;
+    padding: 10px;
     border-radius: 40px;
     border: none;
     background-color: rgba(86, 193, 255, 0.692);
