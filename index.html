@@ -6,9 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"        crossorigin="anonymous" referrerpolicy="no-referrer"/>
-        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Discord</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -19,18 +23,16 @@
                         <img class="img-logo" src="./img/logo.svg" alt="">
                     </div>
                     <div id="col-60">
-                        <span>Scarica</span>
-                        <span>Perchè Discord</span>
-                        <span>Nitro</span>
-                        <span>Sicurezza</span>
-                        <span>Assistenza</span>
+                        <span class="menu">Scarica</span>
+                        <span class="menu">Perchè Discord</span>
+                        <span class="menu">Nitro</span>
+                        <span class="menu">Sicurezza</span>
+                        <span class="menu">Assistenza</span>
                     </div>
-                    
                     <div class="col-button">
                         <button id="login">Accedi</button>
                     </div>
-                </div>
-                
+                </div>   
             </header>
             <!-- END HEADER -->
 
@@ -40,9 +42,9 @@
                 <div class="container jumbo">
                     <div class="blue-row">
                         <div class="violet-col">
-                            <h1>il tuo posto per parlare</h1>
+                            <h1>Il tuo posto per parlare</h1>
                             <p>... dove far parte di un club scolastico, un gruppo di gamer, una community artistica mondiale o dove trascorrere tempo assieme a un piccolo gruppo di amici: uno spazio in cui è più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
-                            <span><button class="sub-button">&#8595; Scarica per Mac</button></span>
+                            <span><button class="sub-button"><span id="arrow-button">&#10515;</span> Scarica per Mac</button></span>
                             <span><button class="black-button">Apri discord nel tuo browser</button></span>
                         </div>
                     </div>
@@ -84,13 +86,11 @@
                 <div class="container">
                     <div id="lightgrey-row">
                         <div class="green-col">
-                            <div class="content">
-                                <h1>TECNOLOGIA AFFIDABILE PER TENERSI IN CONTATTO</h1>
-                                <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
-                                <img class="item-4" src="./img/item4-big.svg" alt="">
-                                <h2>&#10022; Pronto a iniziare la tua avventura? &#10022; &#10022;</h2>
-                                <button id="blue-button"><span> &#10515;</span>Scarica per Mac</button>
-                            </div>    
+                            <h1>Tecnologia affidabile per mettersi in contatto</h1>
+                            <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
+                            <img class="item-4" src="./img/item4-big.svg" alt="">
+                            <h2>&#10022; Pronto a iniziare la tua avventura? &#10022; &#10022;</h2>
+                            <button id="blue-button"><span>&#10515;</span>Scarica per Mac</button>   
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,6 @@
                                 <span class="log-social"><i class="fa-brands fa-youtube fa-2xs"></i></span>
                             </div>   
                         </div>
-                    
                         <div class="col-60">
                             <div class="sub-col">
                                 <ul>
@@ -174,8 +173,5 @@
                 </div>
             </footer>
             <!-- END FOOTER -->
-
-            
-        
     </body>
 </html>

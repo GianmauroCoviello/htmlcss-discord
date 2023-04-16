@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 /* UTILITIES */
 header{
@@ -9,9 +11,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
     
-     
 }
 .container{
     width: 100%;
@@ -29,16 +29,14 @@ header{
     display: flex;
     margin-top: 20px;
     
-
 }
 
 .blue-row{
-    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    padding-bottom: 40px;
+       
 }
 
 .white-row{
@@ -57,17 +55,16 @@ header{
     align-items: center;
     padding: 50px 0;
     
-
 }
 #lightgrey-row{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px;
     text-align: center;
-    font-size: 12px;
     
 
+    
 }
 .green-col p, h1{
     padding-top: 20px;
@@ -87,23 +84,24 @@ footer{
     align-items: end;
 }
 .row-footer{
-    width: 800px;
+    width: 900px;
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 60px;
 
-
 }
 .social{
-    font-size: 20px;
     padding-top: 10px;
+}
+p{
+    font-size: 15px;
 }
 
 /* END UTILITIES */
 #login{
     border-radius: 20px;
-    padding: 10px;
+    padding: 7px;
     background-color: white;
     font-size: 8px;
     border: none;
@@ -121,8 +119,6 @@ footer{
 .col-button{
     width: 20%;
     text-align: end;
-    
-    
 
 }
 
@@ -134,7 +130,11 @@ footer{
     
 }
 span{
-    padding-right: 10px;
+    padding-right: 20px;
+    
+}
+.menu{
+    font-size: 13px;
 }
 .violet-col{
     width: 500px;
@@ -143,20 +143,24 @@ span{
     padding-bottom: 50px;
 }
 .violet-col h1{
-    margin-bottom: 40px;
-    font-size: 2.5rem;
+    padding-bottom: 25px;
+    font-size: 40px;
+    padding-top: 80px;
 }
 .violet-col p{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     
 }
+#arrow-button{
+    padding-right: 4px;
+}
 .sub-button{
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 40px;
     border: none;
 }
 .black-button{
-    padding: 10px;
+    padding: 12px 15px;
     border-radius: 40px;
     border: none;
     background-color: black;
@@ -164,10 +168,10 @@ span{
 
 }
 #blue-button{
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 40px;
     border: none;
-    background-color: rgba(86, 193, 255, 0.692);
+    background-color:  rgba(142, 161, 255, 163);
     color: white;
     font-size: 13px;
     margin-top: 30px;
@@ -180,18 +184,16 @@ span{
 }
 .green-col{
     width: 800px;
-    height: 800px;
 }
-
 .col-40{
-    width: 300px;
+    width: 250px;
     padding-bottom: 20px;
     color: white;
     border-bottom: 1px solid cornflowerblue;
     
 }
 .col-60{
-    width: 500px;
+    width: 650px;
     display: flex;
     padding-bottom: 20px;
     border-bottom: 1px solid cornflowerblue;
@@ -205,12 +207,7 @@ span{
     background-color: rgba(35, 39, 42, 36);;
     align-self: center;
     font-size: 11px;
-    
-    
-    
-}
-p{
-    font-family: 'Montserrat', sans-serif;
+       
 }
 
 .light-pink-col h1{
@@ -219,6 +216,10 @@ p{
 }
 .logo-ita{
     width: 17px;
+    
+}
+.log-social{
+    font-size: 20px;
 }
 select{
     border: none;
@@ -231,12 +232,16 @@ select{
 }
 ul{
     list-style-type: none;
+    font-size: 12px;
 }
 ul :first-child{
     color: rgba(119, 143, 229, 164);
 }
 li{
     padding-bottom: 10px;
+}
+ul, span{
+    font-size: 15px;
 }
 .button-footer{
     padding: 10px;
@@ -247,3 +252,4 @@ li{
     font-size: 11px;
 
 }
+
